@@ -52,24 +52,36 @@ const Navigation = () => {
         className="text-white  w-full      "
       >
         <div className="flex   justify-between mx-4  lg:mx-40  ">
-          <div className="      ">
-            <img
+          <div className=" w-[100px]  lg:w-[200px]    ">
+            <Image
               onClick={handleClick}
               src={"/assets/khubaib.png"}
-              // height={80}
-              // width={200}
+              width={200}
+              height={10}
               className="h-20  md:30 lg:h-56"
               alt="/"
             />
           </div>
 
           <div className="flex my-auto gap-5 lg:gap-9">
+
+          <a>
+
             <HiMail className=" h-8 w-4  lg:w-6 lg:h-10 " />
+          </a>
+          <a target="_blank"
+          href="https://github.com/khubaib-fayaz">
+
             <BsGithub className=" h-8 w-4  lg:w-6 lg:h-10 " />
+          </a>
+          <a     target="_blank"
+          href="https://twitter.com/ahmadma05183568">
+
             <BsTwitter className=" h-8 w-4  lg:w-6 lg:h-10 " />
+          </a>
           </div>
         </div>
-        <div className=" xl:w-[70%]   h-[100vh]   w-[80%]  mt-40 mx-auto">
+        <div  className=" xl:w-[70%]     w-[80%]  mt-40 mx-auto">
           <div className="  xl:text-9xl   md:text-7xl  text-5xl">
             <motion.div
               variants={text1}
@@ -96,9 +108,9 @@ const Navigation = () => {
                 className="  lg:h-28  w-1"
                 style={{ backgroundColor: active ? "orange" : "white" }}
               ></div>
-              My name is Khubaib fayaz, I,m a frontend developer in Pakistan. I
+              My name is Khubaib fayaz Im a frontend developer in Pakistan. I
               am experienced in developing web and dekstop application including
-              full front end design I'm here to help turn your dream amd ideas
+              full front end design I&#39;m here to help turn your dream amd ideas
               into focused clear products
             </div>
 
