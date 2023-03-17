@@ -106,7 +106,7 @@ const Navigation = () => {
             <div className=" xl:w-[60%] md:w-[70%]   w-[100%] lg:text-xl gap-6 flex text-white opacity-60   ">
               <div
                 className="  lg:h-28  w-1"
-                style={{ backgroundColor: active ? "orange" : "white" }}
+                style={{ backgroundColor: active ? "orange" : "purple" }}
               ></div>
               My name is Khubaib fayaz Im a frontend developer in Pakistan. I
               am experienced in developing web and dekstop application including
