@@ -103,13 +103,13 @@ const Navigation = () => {
           </div>
 
           <div className="flex lg:flex-row  flex-col  xl:mx-20 gap-6 mt-10 justify-between">
-            <div className=" xl:w-[60%] md:w-[70%]   w-[100%] lg:text-xl gap-6 flex text-white opacity-60   ">
+            <div className=" xl:w-[50%] md:w-[70%]   w-[100%] lg:text-xl gap-6 flex text-white opacity-60   ">
               <div
                 className="  lg:h-28  w-1"
                 style={{ backgroundColor: active ? "orange" : "purple" }}
               ></div>
               My name is Khubaib fayaz Im a frontend developer in Pakistan. I
-              am experienced in developing web and dekstop application including
+              am experienced in developing web  including
               full front end design I&#39;m here to help turn your dream amd ideas
               into focused clear products
             </div>
